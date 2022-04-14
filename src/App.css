@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f7fb;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
+.main--div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main--title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  text-align: center;
+  color: #293264;
+  margin: 0;
+}
+.main--h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #293264;
+}
+.main--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 193px;
+  height: 52px;
+  color: white;
+  font-family: "Inter";
+  font-size: 20px;
+  background-color: #4d5b9e;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.questions-title {
+  color: #293264;
+}
+.all-elements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.questions-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.check-btn {
+  background: #4d5b9e;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 125px;
+  height: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question-btn {
+	min-width: 65px;
+	min-height: 30px;
+	border: 0.8px solid #4D5B9E;
+	border-radius: 8px;
+	cursor: pointer;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	background-color: #F5F7FB;
+	color: #293264;
+  margin: 5px;
+}
+
+.question-btn:active {
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.30) inset;
+}
+
+.question-btn-selected {
+	min-width: 65px;
+	height: 30px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	color: #293264;
+	background-color: #D6DBF5;
+  margin: 5px;
+}
+
+.question-btn-selected:active {
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.30) inset;
+}
